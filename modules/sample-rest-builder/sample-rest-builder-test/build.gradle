@@ -11,6 +11,6 @@ dependencies {
 	testIntegrationImplementation group: "javax.annotation", name: "javax.annotation-api", version: "1.3.2"
 	testImplementation group: "org.powermock", name: "powermock-module-junit4", version: "2.0.9"
 	testIntegrationImplementation group: "com.liferay.portal", name: "com.liferay.portal.test" 
-	testIntegrationImplementation group : "com.liferay" , name: "com.liferay.arquillian.extension.junit.bridge" , version: "1.0.21" ; 
+	testIntegrationImplementation group : "com.liferay" , name: "com.liferay.arquillian.extension.junit.bridge" , version: "1.0.21" ; 	
 
 } 
