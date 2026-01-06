@@ -1,4 +1,4 @@
-dependencies {
+/*dependencies {
 	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
 
 
@@ -7,4 +7,17 @@ dependencies {
 	compileOnly group: "org.apache.felix", name: "org.apache.felix.http.servlet-api", version: "1.1.2"
 	compileOnly group: "javax.portlet", name: "portlet-api", version: "3.0.1"
 
+} */ 
+
+
+dependencies {
+    cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.1.4"
+
+   
+
+    compileOnly group: "org.osgi", name: "org.osgi.core"
+    compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+    
+    
+    compileOnly group: "com.liferay.portal", name: "release.dxp.api"
 }
